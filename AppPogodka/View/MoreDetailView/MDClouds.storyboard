@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Clouds-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="Clouds" id="Y6W-OH-hqX" customClass="MDCloudsVC" customModule="AppPogodka" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Облачность – что это за явление?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAn-p2-ieE">
+                                <rect key="frame" x="34.5" y="56" width="345" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="345" id="tUx-dx-ahf"/>
+                                    <constraint firstAttribute="height" constant="92" id="viK-gl-Jm9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="o0v-c5-PLg">
+                                <rect key="frame" x="154.5" y="182" width="105" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="QT5-Tc-V3V"/>
+                                    <constraint firstAttribute="width" constant="105" id="akX-Nh-N09"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vXK-gL-9uj">
+                                <rect key="frame" x="28.5" y="156" width="357" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="cf0-6C-2Pa"/>
+                                    <constraint firstAttribute="height" constant="174" id="sBf-8q-Jbv"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmn-6e-YVx">
+                                <rect key="frame" x="0.0" y="338" width="414" height="524"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WHz-H8-OFj">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2376"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgE-9J-kSg">
+                                                <rect key="frame" x="36" y="8" width="344" height="2368"/>
+                                                <mutableString key="text">Облачностью принято называть массу облаков, которые находятся над поверхностью определенного участка нашей планеты в текущее время или находились там в определенный момент времени. Она является одним из основных погодных и климатических факторов, который препятствует как слишком сильному нагреву, так и охлаждению поверхности нашей планеты.
+Облачность рассеивает солнечное излучение, препятствуя перегреву грунта, но в то же время и отражает собственное тепловое излучение поверхности Земли. Фактически роль облачности аналогична роли одеяла, сохраняющего температуру нашего тела стабильной во время сна.
+Измерение облачности
+Количество облаков на небе в разные дни и даже в течение одного дня может изменяться от полного их отсутствия до плотно обложенного непроницаемой облачностью небосклона. В количественном выражении облачность измеряется по международной 10-балльной шкале, которая была принята метеорологами всего мира более 150 лет назад.
+Метеорологические станции в своих наблюдениях фиксируют не только общую облачность, но и количество облаков, находящихся в нижнем ярусе. Как мы помним, именно нижние облака становятся источником атмосферных осадков.
+Авиационные метеорологи используют так называемую 8-октантную шкалу, которая заключается в делении неба на 8 сегментов. Количество видимых на небе облаков и высоту их нижних границ указывают послойно от нижнего слоя к верхнему.
+Количественное выражение облачности автоматические метеостанции сегодня обозначают латинскими буквосочетаниями:
+– FEW – незначительная рассеянная облачность в 1-2 октантах, или 1-3 балла по международной шкале;
+– SCT – отдельные разбросанные по небу облака в 3-4 октантах или 4-5 баллов;
+  – BKN – значительная облачность с разрывами в 5-7 октантах или 6-9 баллов;
+
+– OVC – сплошной облачный слой в 8 октантах или 10 баллов;
+
+– SKC – ясная погода, чистое небо, 0 октантов или 0 баллов;
+
+– NSC – отсутствие существенной облачности, при этом количество облаков на небе может быть любым, если их нижняя граница располагается выше 1500 метров, а мощно-кучевые и кучево-дождевые облака отсутствуют;
+
+– CLR – все облака находятся на высоте выше 3000 метров.
+
+Формы облаков
+Метеорологи различают три основных формы облаков:
+
+– перистые, которые образуются на высоте более 6 тысяч метров из мельчайших ледяных кристалликов, в которые превращаются капельки водяного пара, и имеют форму длинных перьев;
+– кучевые, которые располагаются на высоте 2-3 тысяч метров и похожи на клочья ваты;
+– слоистые, располагающиеся друг над другом в несколько слоев и, как правило, закрывающие все небо.
+
+Профессиональные метеорологи различают несколько десятков разновидностей облаков, которые являются вариантами либо сочетаниями трех основных форм.
+От чего зависит облачность?
+Облачность напрямую зависит от содержания в атмосфере влаги, так как облака образуются из сконденсированных в мельчайшие капельки молекул испарившейся воды. Значительное количество облаков образуется в экваториальной зоне, так как там очень активно идет процесс испарения из-за высокой температуры воздуха.
+Наиболее часто здесь образуются кучевые и грозовые формы облаков. Субэкваториальные пояса характеризуются сезонной облачностью: в сезон дождей она, как правило, увеличивается, в сухой сезон – практически отсутствует.
+Облачность умеренных поясов зависит от переноса морского воздуха, атмосферных фронтов и циклонов. Она тоже носит сезонный характер как по количеству, так и по форме облаков. Зимой наиболее часто образуются слоистые облака, обкладывающие небо сплошной пеленой.
+К весне облачность обычно уменьшается, начинают появляться кучевые облака. Летом на небе господствуют кучевые и кучево-дождевые формы. Осенью облака наиболее обильны с преобладанием слоистых и слоисто-дождевых облаков.
+Для всей планеты в целом количественный показатель облачности примерно равен 5,4 балла, причем над сушей облачность ниже – около 4,8 балла, а над морем выше – 5,8 балла. Наибольшая облачность образуется над северной частью Тихого океана и Атлантики, где ее величина достигает 8 баллов. Над пустынями она не превышает 1-2 балла.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="GgE-9J-kSg" secondAttribute="bottom" id="DCg-ZK-YHy"/>
+                                            <constraint firstItem="GgE-9J-kSg" firstAttribute="top" secondItem="WHz-H8-OFj" secondAttribute="top" constant="8" id="FrA-kM-h98"/>
+                                            <constraint firstAttribute="trailing" secondItem="GgE-9J-kSg" secondAttribute="trailing" constant="34" id="UqO-oy-4GB"/>
+                                            <constraint firstItem="GgE-9J-kSg" firstAttribute="leading" secondItem="WHz-H8-OFj" secondAttribute="leading" constant="36" id="uO4-Hw-RFg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WHz-H8-OFj" secondAttribute="trailing" id="5pb-HZ-ahr"/>
+                                    <constraint firstItem="WHz-H8-OFj" firstAttribute="leading" secondItem="hmn-6e-YVx" secondAttribute="leading" id="Ope-2w-0Zm"/>
+                                    <constraint firstItem="WHz-H8-OFj" firstAttribute="top" secondItem="hmn-6e-YVx" secondAttribute="top" id="clO-Uk-fzU"/>
+                                    <constraint firstAttribute="bottom" secondItem="WHz-H8-OFj" secondAttribute="bottom" constant="-800" id="o3g-gy-hK5"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="lNy-f1-5wJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Yr5-oq-N1T"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.55231833460000002" green="0.76606255769999998" blue="0.8980588317" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hmn-6e-YVx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="FZi-nF-WOt"/>
+                            <constraint firstItem="o0v-c5-PLg" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="LQw-nd-XvQ"/>
+                            <constraint firstItem="lAn-p2-ieE" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Rli-84-MwL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hmn-6e-YVx" secondAttribute="bottom" id="SaK-ng-W4e"/>
+                            <constraint firstItem="WHz-H8-OFj" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="XdG-cN-s9Y"/>
+                            <constraint firstItem="vXK-gL-9uj" firstAttribute="top" secondItem="lAn-p2-ieE" secondAttribute="bottom" constant="8" symbolic="YES" id="gRl-0V-j0a"/>
+                            <constraint firstItem="hmn-6e-YVx" firstAttribute="top" secondItem="vXK-gL-9uj" secondAttribute="bottom" constant="8" symbolic="YES" id="jc3-qj-87m"/>
+                            <constraint firstItem="vXK-gL-9uj" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="oAH-ql-CdE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hmn-6e-YVx" secondAttribute="trailing" id="qAP-OL-yqP"/>
+                            <constraint firstItem="lAn-p2-ieE" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="12" id="rJv-4k-f8R"/>
+                            <constraint firstItem="o0v-c5-PLg" firstAttribute="top" secondItem="lAn-p2-ieE" secondAttribute="bottom" constant="34" id="vgG-J0-spa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageClouds" destination="vXK-gL-9uj" id="KOo-HR-uu2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="22.767857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

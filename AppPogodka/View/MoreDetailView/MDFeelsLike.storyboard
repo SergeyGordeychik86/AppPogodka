@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FeelsLike-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="FeelsLike" id="Y6W-OH-hqX" customClass="MDFeelsLikeVC" customModule="AppPogodka" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qwd-bd-bqo">
+                                <rect key="frame" x="20" y="162" width="374" height="231"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="HLm-Zg-0Tb"/>
+                                    <constraint firstAttribute="width" constant="374" id="ca7-r3-Hj4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что значит «Ощущается как» в прогнозе погоды? И выходит ли специальный человек для этого измерения на балкон" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svd-fr-8Ak">
+                                <rect key="frame" x="20" y="44" width="374" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="3ss-BJ-QsR"/>
+                                    <constraint firstAttribute="height" constant="110" id="gfq-3v-O2m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sh2-i2-LHt">
+                                <rect key="frame" x="0.0" y="393" width="414" height="469"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1h-Zy-WJr">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1930.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="am0-en-3f6">
+                                                <rect key="frame" x="10" y="20" width="394" height="1501.5"/>
+                                                <mutableString key="text">Вы наверняка обращали внимание, что в таблицах погоды часто указывают фактическую температуру воздуха и то, как мы ее ощущаем – температуру «по ощущениям». Почему они так различаются? Откуда метеорологи узнают, как нами будет ощущаться температура?
+Хотя числовые значения температуры не универсальны, большинство людей понимают, что означает температура 25 °С. Но стоит добавить резкий ветер – и воздух станет гораздо прохладнее. Поднимите влажность – и температура, которую испытывает наше тело, станет намного выше. Осадки и облачный покров также играют роль в том, что температура 25 °С становится более относительной. Так как же рассчитываются «ощущения» температуры?
+Простым показателем того, как ощущается температура, является тепловой индекс, который объединяет температуру и показатель относительной влажности, чтобы лучше понять, насколько жарко нам будет на самом деле.
+В жаркий день наше тело потеет, чтобы остыть. В сухой среде с низкой влажностью пот быстро испаряется в воздух, и мы чувствуем себя эффективно охлажденными. Во влажных регионах воздух уже полон влаги, поэтому наш пот испаряется медленнее (или не испаряется совсем), отчего нам становится жарче.
+Холодный воздух может удерживать меньше водных испарений, поэтому при понижении его температуры в конечном итоге достигается предел, называемый точкой росы, когда воздух слишком холодный, чтобы удерживать больше влаги. Поскольку пар больше не может оставаться в воздухе в виде влажности, он начинает конденсироваться на поверхностях. Температура и точка росы вместе дают относительную влажность – меру количества влаги в воздухе по сравнению с тем, сколько влаги воздух потенциально может удерживать. Эта относительная влажность в сочетании с температурой определяет тепловой индекс – оценку того, насколько горячий воздух на самом деле ощущается.
+Таким образом, температура 25 °С при влажности 10% кажется близкой к 24 °С, а вот при влажности 90% она будет ближе к 27 °С. 
+Также метеорологи учитывают фактор охлаждения ветром. Ветер может принудить пот быстрее испаряться с поверхности тела, заставляя нас чувствовать прохладу. Так, например, температура в 25 °С при скорости ветра 80 км в час может ощущаться как 22 °С.
+Когда метеослужба делает прогноз о том, какой будет температура, она обычно включает в эти данные базовые измерения индекса тепла и фактора охлаждения ветром, а также другие погодные факторы, такие как облачный покров или УФ-индекс, интенсивность солнечного света, видимость и почвенный покров. Сюда также включается ожидаемая скорость теплопередачи через человеческое тело среднего размера со средним метаболизмом. Вдобавок метеорологи предполагают, что человек будет одет по погоде.
+В конечном счете, «ощущения» температуры – это попытка понять и количественно оценить реакцию человека на температуру, взаимосвязь с множеством усложняющих факторов. И хотя для определения «ощущаемой» температуры все еще требуется много оценок, метеорологические службы стараются подготовить нас к тому, что приготовила погода.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.55231833460000002" green="0.76606255769999998" blue="0.8980588317" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="am0-en-3f6" firstAttribute="leading" secondItem="d1h-Zy-WJr" secondAttribute="leading" constant="10" id="1Tx-n8-KXh"/>
+                                            <constraint firstAttribute="trailing" secondItem="am0-en-3f6" secondAttribute="trailing" constant="10" id="4UP-rh-1TK"/>
+                                            <constraint firstItem="am0-en-3f6" firstAttribute="top" secondItem="d1h-Zy-WJr" secondAttribute="top" constant="20" id="OLd-gu-NaG"/>
+                                            <constraint firstAttribute="bottom" secondItem="am0-en-3f6" secondAttribute="bottom" constant="409" id="ehq-aR-nDq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="d1h-Zy-WJr" firstAttribute="top" secondItem="Sh2-i2-LHt" secondAttribute="top" id="G3i-m0-rXn"/>
+                                    <constraint firstAttribute="trailing" secondItem="d1h-Zy-WJr" secondAttribute="trailing" constant="-174" id="MWK-GB-VcB"/>
+                                    <constraint firstAttribute="bottom" secondItem="d1h-Zy-WJr" secondAttribute="bottom" constant="-472" id="dA3-wN-zX8"/>
+                                    <constraint firstItem="d1h-Zy-WJr" firstAttribute="leading" secondItem="Sh2-i2-LHt" secondAttribute="leading" id="xgq-bT-9l5"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="mMN-GN-t83"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="9MU-4n-LIw"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.25195127467044193" green="0.78934460958670283" blue="0.98854323770060681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="qwd-bd-bqo" firstAttribute="top" secondItem="svd-fr-8Ak" secondAttribute="bottom" constant="8" symbolic="YES" id="4x3-EO-wpW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Sh2-i2-LHt" secondAttribute="trailing" id="6Az-TQ-Km5"/>
+                            <constraint firstItem="svd-fr-8Ak" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="7yG-91-WWt"/>
+                            <constraint firstItem="qwd-bd-bqo" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="9m7-De-uDn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Sh2-i2-LHt" secondAttribute="bottom" id="HTY-s5-kGk"/>
+                            <constraint firstItem="svd-fr-8Ak" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="MKi-Mm-PSx"/>
+                            <constraint firstItem="Sh2-i2-LHt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="aJ7-wz-Xiw"/>
+                            <constraint firstItem="Sh2-i2-LHt" firstAttribute="top" secondItem="qwd-bd-bqo" secondAttribute="bottom" id="lLI-pt-ZEE"/>
+                            <constraint firstItem="d1h-Zy-WJr" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="nZ2-MB-Eqk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageFeelsLike" destination="qwd-bd-bqo" id="ddf-Px-8GA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="47.544642857142854"/>
+        </scene>
+    </scenes>
+</document>

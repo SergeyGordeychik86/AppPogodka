@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Wind GustVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="MDWindGustVC" customModule="AppPogodka" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Откуда берутся порывы ветра?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-WB-cIE">
+                                <rect key="frame" x="20" y="57" width="374" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="2GX-IR-FYP"/>
+                                    <constraint firstAttribute="height" constant="87" id="5Lp-Yp-YCG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="U9f-Wa-hZD">
+                                <rect key="frame" x="161" y="226" width="92" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="48M-BM-JGe"/>
+                                    <constraint firstAttribute="width" constant="92" id="enp-Th-bYk"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rYj-2x-kcB">
+                                <rect key="frame" x="20" y="165" width="374" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="Er4-fd-xCG"/>
+                                    <constraint firstAttribute="height" constant="193" id="P9Y-T9-ZnK"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKs-6n-xmS">
+                                <rect key="frame" x="20" y="384" width="374" height="478"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWz-BX-Xma">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="588.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aii-J3-sqz">
+                                                <rect key="frame" x="19" y="8" width="337" height="730.5"/>
+                                                <mutableString key="text">Напомним, что порыв ветра – это короткое усиление скорости ветра длительностью до 20-30 секунд.
+Порыв может возникнуть, когда на пути ветра появляются препятствия, например, здания. Это происходит так: ветер во время сталкивания с объектом, “окутывает” объект, увеличивается трение и замедляется скорость ветра. Как только он прошел объект и начинает свободно двигаться, то резко набирает скорость. 
+Когда ветер проходит через горные перевалы или тоннели, так получается, что одинаковое количество воздуха “втискивается” через препятствие, а это заставляет ветер ускориться после его прохождения.
+При одинаковой скорости ветра, в городе его порывы будут сильнее чем на открытой местности.
+Порывы ветра (которые длятся 20-30 секунд) затрудняют определение скорости ветра во время штормов, ураганов, особенно это касается тропических циклонов. Чтобы оценить общую скорость ветра, его измеряют в течение некоторого периода времени (в течение 5 мин) и записывают среднюю и максимальную скорость порывов. 
+Порывы ветра могут быть опасны для яхтсменов, кайтсереферов и всех, кто имеет дело с ветром.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="aii-J3-sqz" firstAttribute="leading" secondItem="kWz-BX-Xma" secondAttribute="leading" constant="19" id="2ig-fg-8u1"/>
+                                            <constraint firstAttribute="trailing" secondItem="aii-J3-sqz" secondAttribute="trailing" constant="58" id="Irr-jM-pnD"/>
+                                            <constraint firstItem="aii-J3-sqz" firstAttribute="top" secondItem="kWz-BX-Xma" secondAttribute="top" constant="8" id="bhE-8V-O6p"/>
+                                            <constraint firstAttribute="bottom" secondItem="aii-J3-sqz" secondAttribute="bottom" constant="-150" id="tnf-31-Dzb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kWz-BX-Xma" secondAttribute="bottom" constant="-397" id="28A-Ob-vvW"/>
+                                    <constraint firstAttribute="trailing" secondItem="kWz-BX-Xma" secondAttribute="trailing" id="Lpy-32-jO7"/>
+                                    <constraint firstItem="kWz-BX-Xma" firstAttribute="leading" secondItem="eKs-6n-xmS" secondAttribute="leading" id="cG9-Kx-kgH"/>
+                                    <constraint firstItem="kWz-BX-Xma" firstAttribute="top" secondItem="eKs-6n-xmS" secondAttribute="top" id="dSQ-Ay-0d9"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="kD7-Gk-tz3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="qEq-k4-zNP"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="kWz-BX-Xma" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="5hH-Kd-bTa"/>
+                            <constraint firstItem="rYj-2x-kcB" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="8BO-aL-Vct"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="eKs-6n-xmS" secondAttribute="bottom" id="AIc-EG-jLI"/>
+                            <constraint firstItem="eKs-6n-xmS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="BnO-4s-KYe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eKs-6n-xmS" secondAttribute="trailing" constant="20" id="GMU-Fq-pwW"/>
+                            <constraint firstItem="U9f-Wa-hZD" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="GMv-ac-aOG"/>
+                            <constraint firstItem="U9f-Wa-hZD" firstAttribute="top" secondItem="Wox-WB-cIE" secondAttribute="bottom" constant="82" id="I0O-ir-AL0"/>
+                            <constraint firstItem="eKs-6n-xmS" firstAttribute="top" secondItem="rYj-2x-kcB" secondAttribute="bottom" constant="26" id="Plm-7B-jsl"/>
+                            <constraint firstItem="rYj-2x-kcB" firstAttribute="top" secondItem="Wox-WB-cIE" secondAttribute="bottom" constant="21" id="RFo-yN-AB7"/>
+                            <constraint firstItem="Wox-WB-cIE" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="qzU-ts-nci"/>
+                            <constraint firstItem="Wox-WB-cIE" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="13" id="tnq-Vs-Ly3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageWindGust" destination="rYj-2x-kcB" id="KUX-zv-NcT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

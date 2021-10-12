@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng_clip_art_portable_network_graphics_storm_computer_5d08fc4abaa921.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

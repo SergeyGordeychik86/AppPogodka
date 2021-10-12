@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4B7FAB26C556D500AEFC0F /* End.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4B7FAA26C556D500AEFC0F /* End.storyboard */; };
+		FA4B7FAD26C56ADA00AEFC0F /* EndVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B7FAC26C56ADA00AEFC0F /* EndVC.swift */; };
+		FA4B7FD226C8179900AEFC0F /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4B7FD126C8179900AEFC0F /* DestinationData.swift */; };
+		FA51E4F326698479000738C8 /* Птица.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA51E4F226698479000738C8 /* Птица.gif */; };
+		FA53950A2678009900764369 /* KursValute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA5395092678009900764369 /* KursValute.mp3 */; };
+		FA58D1DB265DA77F0002F53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1DA265DA77F0002F53E /* AppDelegate.swift */; };
+		FA58D1DD265DA77F0002F53E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1DC265DA77F0002F53E /* SceneDelegate.swift */; };
+		FA58D1DF265DA77F0002F53E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1DE265DA77F0002F53E /* ViewController.swift */; };
+		FA58D1E2265DA77F0002F53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA58D1E0265DA77F0002F53E /* Main.storyboard */; };
+		FA58D1E5265DA77F0002F53E /* AppPogodka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1E3265DA77F0002F53E /* AppPogodka.xcdatamodeld */; };
+		FA58D1E7265DA7820002F53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58D1E6265DA7820002F53E /* Assets.xcassets */; };
+		FA58D1EA265DA7820002F53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA58D1E8265DA7820002F53E /* LaunchScreen.storyboard */; };
+		FA58D1F726604F610002F53E /* VC+AlertControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1F626604F610002F53E /* VC+AlertControler.swift */; };
+		FA58D1FC266055B70002F53E /* StartMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1FB266055B70002F53E /* StartMusic.swift */; };
+		FA58D1FE2661944F0002F53E /* GifToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D1FD2661944F0002F53E /* GifToImage.swift */; };
+		FA58D201266195B80002F53E /* StartGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D200266195B80002F53E /* StartGifViewController.swift */; };
+		FA58D204266199200002F53E /* Дождь3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA58D203266199200002F53E /* Дождь3.gif */; };
+		FA58D20626619BD70002F53E /* RainStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA58D20526619BD70002F53E /* RainStart.mp3 */; };
+		FA58D20826619E370002F53E /* Raskat-groma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA58D20726619E370002F53E /* Raskat-groma.mp3 */; };
+		FA58D20A2661AD240002F53E /* DetailPogoda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA58D2092661AD240002F53E /* DetailPogoda.mp3 */; };
+		FA58D20C2662D01E0002F53E /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D20B2662D01E0002F53E /* NetworkWeatherManager.swift */; };
+		FA58D20E2662D0390002F53E /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D20D2662D0390002F53E /* CurrentWeather.swift */; };
+		FA58D2102662D0580002F53E /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D20F2662D0580002F53E /* CurrentWeatherData.swift */; };
+		FA58D2122662D0820002F53E /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D2112662D0820002F53E /* Constance.swift */; };
+		FA58D214266439E30002F53E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58D213266439E20002F53E /* DetailViewController.swift */; };
+		FA7C2E6C266C3C600060BBF5 /* MDFeelsLike.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E6B266C3C600060BBF5 /* MDFeelsLike.storyboard */; };
+		FA7C2E6E266C3D940060BBF5 /* MDMinTemp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E6D266C3D940060BBF5 /* MDMinTemp.storyboard */; };
+		FA7C2E71266CC7850060BBF5 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2E70266CC7850060BBF5 /* Detail.swift */; };
+		FA7C2E73266D2A160060BBF5 /* MDMaxTemp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E72266D2A160060BBF5 /* MDMaxTemp.storyboard */; };
+		FA7C2E75266D2A570060BBF5 /* MDClouds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E74266D2A570060BBF5 /* MDClouds.storyboard */; };
+		FA7C2E77266D2A780060BBF5 /* MDPressure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E76266D2A780060BBF5 /* MDPressure.storyboard */; };
+		FA7C2E79266D2AA40060BBF5 /* MDHumidity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E78266D2AA40060BBF5 /* MDHumidity.storyboard */; };
+		FA7C2E7B266D2ACD0060BBF5 /* MDWindSpeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E7A266D2ACD0060BBF5 /* MDWindSpeed.storyboard */; };
+		FA7C2E7D266D2AEA0060BBF5 /* MDWindDeg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E7C266D2AEA0060BBF5 /* MDWindDeg.storyboard */; };
+		FA7C2E7F266D2B2A0060BBF5 /* MDWindGust.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E7E266D2B2A0060BBF5 /* MDWindGust.storyboard */; };
+		FA7C2E81266D2B410060BBF5 /* MDVisibility.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E80266D2B410060BBF5 /* MDVisibility.storyboard */; };
+		FA7C2E8A266EC1840060BBF5 /* Humidity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E82266EC1820060BBF5 /* Humidity.mp3 */; };
+		FA7C2E8B266EC1840060BBF5 /* GustWind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E83266EC1820060BBF5 /* GustWind.mp3 */; };
+		FA7C2E8C266EC1840060BBF5 /* Pressure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E84266EC1820060BBF5 /* Pressure.mp3 */; };
+		FA7C2E8D266EC1840060BBF5 /* End.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E85266EC1830060BBF5 /* End.mp3 */; };
+		FA7C2E8E266EC1840060BBF5 /* FeelsLike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E86266EC1830060BBF5 /* FeelsLike.mp3 */; };
+		FA7C2E8F266EC1840060BBF5 /* DegWind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E87266EC1830060BBF5 /* DegWind.mp3 */; };
+		FA7C2E90266EC1840060BBF5 /* SpeedWind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E88266EC1830060BBF5 /* SpeedWind.mp3 */; };
+		FA7C2E91266EC1840060BBF5 /* Clouds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E89266EC1840060BBF5 /* Clouds.mp3 */; };
+		FA7C2E93267016B20060BBF5 /* DetailMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2E92267016B20060BBF5 /* DetailMusic.swift */; };
+		FA7C2E9D267024280060BBF5 /* ButtomDetail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2E9C267024280060BBF5 /* ButtomDetail.mp3 */; };
+		FA7C2E9F267169F90060BBF5 /* MDFeelsLikeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2E9E267169F90060BBF5 /* MDFeelsLikeVC.swift */; };
+		FA7C2EA226716BB50060BBF5 /* NetworkValuteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EA126716BB50060BBF5 /* NetworkValuteManager.swift */; };
+		FA7C2EA42672AF730060BBF5 /* MDMinTempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EA32672AF730060BBF5 /* MDMinTempVC.swift */; };
+		FA7C2EA62672AFA50060BBF5 /* MDMaxTempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EA52672AFA50060BBF5 /* MDMaxTempVC.swift */; };
+		FA7C2EA82672AFD00060BBF5 /* MDCloudsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EA72672AFD00060BBF5 /* MDCloudsVC.swift */; };
+		FA7C2EAA2672AFED0060BBF5 /* MDPressureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EA92672AFED0060BBF5 /* MDPressureVC.swift */; };
+		FA7C2EAC2672B0060060BBF5 /* MDHumidityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EAB2672B0060060BBF5 /* MDHumidityVC.swift */; };
+		FA7C2EAE2672B0240060BBF5 /* MDWindSpeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EAD2672B0240060BBF5 /* MDWindSpeedVC.swift */; };
+		FA7C2EB02672B05F0060BBF5 /* MDWindDegVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EAF2672B05F0060BBF5 /* MDWindDegVC.swift */; };
+		FA7C2EB22672B07C0060BBF5 /* MDWindGustVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EB12672B07C0060BBF5 /* MDWindGustVC.swift */; };
+		FA7C2EB42672B09D0060BBF5 /* MDVisibilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EB32672B09D0060BBF5 /* MDVisibilityVC.swift */; };
+		FA7C2EB92673F0280060BBF5 /* KursValute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7C2EB82673F0280060BBF5 /* KursValute.storyboard */; };
+		FA7C2EBB2674A74F0060BBF5 /* KursValuteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EBA2674A74F0060BBF5 /* KursValuteVC.swift */; };
+		FA7C2EBD2674A81F0060BBF5 /* CurrencyValute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EBC2674A81F0060BBF5 /* CurrencyValute.swift */; };
+		FA7C2EC02674A9220060BBF5 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EBF2674A9220060BBF5 /* CurrencyTableViewCell.swift */; };
+		FA7C2EC42674EE360060BBF5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C2EC32674EE360060BBF5 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA4B7FAA26C556D500AEFC0F /* End.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = End.storyboard; sourceTree = "<group>"; };
+		FA4B7FAC26C56ADA00AEFC0F /* EndVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndVC.swift; sourceTree = "<group>"; };
+		FA4B7FD126C8179900AEFC0F /* DestinationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
+		FA51E4F226698479000738C8 /* Птица.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Птица.gif"; sourceTree = "<group>"; };
+		FA5395092678009900764369 /* KursValute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KursValute.mp3; sourceTree = "<group>"; };
+		FA58D1D7265DA77F0002F53E /* AppPogodka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPogodka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA58D1DA265DA77F0002F53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA58D1DC265DA77F0002F53E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA58D1DE265DA77F0002F53E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA58D1E1265DA77F0002F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA58D1E4265DA77F0002F53E /* AppPogodka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppPogodka.xcdatamodel; sourceTree = "<group>"; };
+		FA58D1E6265DA7820002F53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA58D1E9265DA7820002F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA58D1EB265DA7820002F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA58D1F626604F610002F53E /* VC+AlertControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+AlertControler.swift"; sourceTree = "<group>"; };
+		FA58D1FB266055B70002F53E /* StartMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMusic.swift; sourceTree = "<group>"; };
+		FA58D1FD2661944F0002F53E /* GifToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifToImage.swift; sourceTree = "<group>"; };
+		FA58D200266195B80002F53E /* StartGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGifViewController.swift; sourceTree = "<group>"; };
+		FA58D203266199200002F53E /* Дождь3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Дождь3.gif"; sourceTree = "<group>"; };
+		FA58D20526619BD70002F53E /* RainStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RainStart.mp3; sourceTree = "<group>"; };
+		FA58D20726619E370002F53E /* Raskat-groma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Raskat-groma.mp3"; sourceTree = "<group>"; };
+		FA58D2092661AD240002F53E /* DetailPogoda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DetailPogoda.mp3; sourceTree = "<group>"; };
+		FA58D20B2662D01E0002F53E /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		FA58D20D2662D0390002F53E /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		FA58D20F2662D0580002F53E /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		FA58D2112662D0820002F53E /* Constance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
+		FA58D213266439E20002F53E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA7C2E6B266C3C600060BBF5 /* MDFeelsLike.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDFeelsLike.storyboard; sourceTree = "<group>"; };
+		FA7C2E6D266C3D940060BBF5 /* MDMinTemp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDMinTemp.storyboard; sourceTree = "<group>"; };
+		FA7C2E70266CC7850060BBF5 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		FA7C2E72266D2A160060BBF5 /* MDMaxTemp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDMaxTemp.storyboard; sourceTree = "<group>"; };
+		FA7C2E74266D2A570060BBF5 /* MDClouds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDClouds.storyboard; sourceTree = "<group>"; };
+		FA7C2E76266D2A780060BBF5 /* MDPressure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDPressure.storyboard; sourceTree = "<group>"; };
+		FA7C2E78266D2AA40060BBF5 /* MDHumidity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDHumidity.storyboard; sourceTree = "<group>"; };
+		FA7C2E7A266D2ACD0060BBF5 /* MDWindSpeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDWindSpeed.storyboard; sourceTree = "<group>"; };
+		FA7C2E7C266D2AEA0060BBF5 /* MDWindDeg.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDWindDeg.storyboard; sourceTree = "<group>"; };
+		FA7C2E7E266D2B2A0060BBF5 /* MDWindGust.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDWindGust.storyboard; sourceTree = "<group>"; };
+		FA7C2E80266D2B410060BBF5 /* MDVisibility.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MDVisibility.storyboard; sourceTree = "<group>"; };
+		FA7C2E82266EC1820060BBF5 /* Humidity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Humidity.mp3; sourceTree = "<group>"; };
+		FA7C2E83266EC1820060BBF5 /* GustWind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GustWind.mp3; sourceTree = "<group>"; };
+		FA7C2E84266EC1820060BBF5 /* Pressure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pressure.mp3; sourceTree = "<group>"; };
+		FA7C2E85266EC1830060BBF5 /* End.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = End.mp3; sourceTree = "<group>"; };
+		FA7C2E86266EC1830060BBF5 /* FeelsLike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FeelsLike.mp3; sourceTree = "<group>"; };
+		FA7C2E87266EC1830060BBF5 /* DegWind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DegWind.mp3; sourceTree = "<group>"; };
+		FA7C2E88266EC1830060BBF5 /* SpeedWind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpeedWind.mp3; sourceTree = "<group>"; };
+		FA7C2E89266EC1840060BBF5 /* Clouds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clouds.mp3; sourceTree = "<group>"; };
+		FA7C2E92267016B20060BBF5 /* DetailMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusic.swift; sourceTree = "<group>"; };
+		FA7C2E9C267024280060BBF5 /* ButtomDetail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtomDetail.mp3; sourceTree = "<group>"; };
+		FA7C2E9E267169F90060BBF5 /* MDFeelsLikeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDFeelsLikeVC.swift; sourceTree = "<group>"; };
+		FA7C2EA126716BB50060BBF5 /* NetworkValuteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkValuteManager.swift; sourceTree = "<group>"; };
+		FA7C2EA32672AF730060BBF5 /* MDMinTempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDMinTempVC.swift; sourceTree = "<group>"; };
+		FA7C2EA52672AFA50060BBF5 /* MDMaxTempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDMaxTempVC.swift; sourceTree = "<group>"; };
+		FA7C2EA72672AFD00060BBF5 /* MDCloudsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDCloudsVC.swift; sourceTree = "<group>"; };
+		FA7C2EA92672AFED0060BBF5 /* MDPressureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPressureVC.swift; sourceTree = "<group>"; };
+		FA7C2EAB2672B0060060BBF5 /* MDHumidityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDHumidityVC.swift; sourceTree = "<group>"; };
+		FA7C2EAD2672B0240060BBF5 /* MDWindSpeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDWindSpeedVC.swift; sourceTree = "<group>"; };
+		FA7C2EAF2672B05F0060BBF5 /* MDWindDegVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDWindDegVC.swift; sourceTree = "<group>"; };
+		FA7C2EB12672B07C0060BBF5 /* MDWindGustVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDWindGustVC.swift; sourceTree = "<group>"; };
+		FA7C2EB32672B09D0060BBF5 /* MDVisibilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVisibilityVC.swift; sourceTree = "<group>"; };
+		FA7C2EB62672B2EA0060BBF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FA7C2EB82673F0280060BBF5 /* KursValute.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KursValute.storyboard; sourceTree = "<group>"; };
+		FA7C2EBA2674A74F0060BBF5 /* KursValuteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KursValuteVC.swift; sourceTree = "<group>"; };
+		FA7C2EBC2674A81F0060BBF5 /* CurrencyValute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyValute.swift; sourceTree = "<group>"; };
+		FA7C2EBF2674A9220060BBF5 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		FA7C2EC32674EE360060BBF5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA58D1D4265DA77F0002F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA58D1CE265DA77F0002F53E = {
+			isa = PBXGroup;
+			children = (
+				FA58D1D9265DA77F0002F53E /* AppPogodka */,
+				FA58D1D8265DA77F0002F53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA58D1D8265DA77F0002F53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D1D7265DA77F0002F53E /* AppPogodka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA58D1D9265DA77F0002F53E /* AppPogodka */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2EA026716B150060BBF5 /* Networking */,
+				FA58D1F8266054A30002F53E /* Music  */,
+				FA58D1F126604E1C0002F53E /* Extensions */,
+				FA58D1F226604E390002F53E /* View */,
+				FA58D1F326604E4C0002F53E /* Controlers */,
+				FA58D1F426604E6A0002F53E /* Models */,
+				FA58D1F526604E7C0002F53E /* Supporting files */,
+				FA58D1EB265DA7820002F53E /* Info.plist */,
+				FA58D1E3265DA77F0002F53E /* AppPogodka.xcdatamodeld */,
+				FA7C2E70266CC7850060BBF5 /* Detail.swift */,
+				FA4B7FD126C8179900AEFC0F /* DestinationData.swift */,
+			);
+			path = AppPogodka;
+			sourceTree = "<group>";
+		};
+		FA58D1F126604E1C0002F53E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D1F626604F610002F53E /* VC+AlertControler.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA58D1F226604E390002F53E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D1E0265DA77F0002F53E /* Main.storyboard */,
+				FA7C2E98267019C20060BBF5 /* StartScreen */,
+				FA7C2E97267019860060BBF5 /* MoreDetailView */,
+				FA7C2EC52674F1090060BBF5 /* ValuteMoreDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA58D1F326604E4C0002F53E /* Controlers */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D200266195B80002F53E /* StartGifViewController.swift */,
+				FA58D1DE265DA77F0002F53E /* ViewController.swift */,
+				FA58D213266439E20002F53E /* DetailViewController.swift */,
+				FA7C2E9926701A500060BBF5 /* MoreDetailControllers */,
+				FA7C2EBE2674A86E0060BBF5 /* Valute */,
+			);
+			path = Controlers;
+			sourceTree = "<group>";
+		};
+		FA58D1F426604E6A0002F53E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D20D2662D0390002F53E /* CurrentWeather.swift */,
+				FA58D20F2662D0580002F53E /* CurrentWeatherData.swift */,
+				FA7C2EC22674EDEE0060BBF5 /* modelValute */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA58D1F526604E7C0002F53E /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D2112662D0820002F53E /* Constance.swift */,
+				FA58D1FD2661944F0002F53E /* GifToImage.swift */,
+				FA58D203266199200002F53E /* Дождь3.gif */,
+				FA51E4F226698479000738C8 /* Птица.gif */,
+				FA58D1DC265DA77F0002F53E /* SceneDelegate.swift */,
+				FA58D1DA265DA77F0002F53E /* AppDelegate.swift */,
+				FA58D1E6265DA7820002F53E /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FA58D1F8266054A30002F53E /* Music  */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2E95267018CB0060BBF5 /* StartMusic */,
+				FA7C2E962670190C0060BBF5 /* DetailMusic */,
+			);
+			path = "Music ";
+			sourceTree = "<group>";
+		};
+		FA7C2E95267018CB0060BBF5 /* StartMusic */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D1FB266055B70002F53E /* StartMusic.swift */,
+				FA58D20526619BD70002F53E /* RainStart.mp3 */,
+				FA58D20726619E370002F53E /* Raskat-groma.mp3 */,
+				FA58D2092661AD240002F53E /* DetailPogoda.mp3 */,
+				FA7C2E9C267024280060BBF5 /* ButtomDetail.mp3 */,
+			);
+			path = StartMusic;
+			sourceTree = "<group>";
+		};
+		FA7C2E962670190C0060BBF5 /* DetailMusic */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2E92267016B20060BBF5 /* DetailMusic.swift */,
+				FA7C2E89266EC1840060BBF5 /* Clouds.mp3 */,
+				FA7C2E87266EC1830060BBF5 /* DegWind.mp3 */,
+				FA7C2E86266EC1830060BBF5 /* FeelsLike.mp3 */,
+				FA7C2E83266EC1820060BBF5 /* GustWind.mp3 */,
+				FA7C2E82266EC1820060BBF5 /* Humidity.mp3 */,
+				FA7C2E84266EC1820060BBF5 /* Pressure.mp3 */,
+				FA7C2E88266EC1830060BBF5 /* SpeedWind.mp3 */,
+				FA5395092678009900764369 /* KursValute.mp3 */,
+				FA7C2E85266EC1830060BBF5 /* End.mp3 */,
+			);
+			path = DetailMusic;
+			sourceTree = "<group>";
+		};
+		FA7C2E97267019860060BBF5 /* MoreDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2E6B266C3C600060BBF5 /* MDFeelsLike.storyboard */,
+				FA7C2E6D266C3D940060BBF5 /* MDMinTemp.storyboard */,
+				FA7C2E72266D2A160060BBF5 /* MDMaxTemp.storyboard */,
+				FA7C2E74266D2A570060BBF5 /* MDClouds.storyboard */,
+				FA7C2E76266D2A780060BBF5 /* MDPressure.storyboard */,
+				FA7C2E78266D2AA40060BBF5 /* MDHumidity.storyboard */,
+				FA7C2E7A266D2ACD0060BBF5 /* MDWindSpeed.storyboard */,
+				FA7C2E7C266D2AEA0060BBF5 /* MDWindDeg.storyboard */,
+				FA7C2E7E266D2B2A0060BBF5 /* MDWindGust.storyboard */,
+				FA7C2E80266D2B410060BBF5 /* MDVisibility.storyboard */,
+				FA4B7FAA26C556D500AEFC0F /* End.storyboard */,
+			);
+			path = MoreDetailView;
+			sourceTree = "<group>";
+		};
+		FA7C2E98267019C20060BBF5 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D1E8265DA7820002F53E /* LaunchScreen.storyboard */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		FA7C2E9926701A500060BBF5 /* MoreDetailControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2E9E267169F90060BBF5 /* MDFeelsLikeVC.swift */,
+				FA7C2EA32672AF730060BBF5 /* MDMinTempVC.swift */,
+				FA7C2EA52672AFA50060BBF5 /* MDMaxTempVC.swift */,
+				FA7C2EA72672AFD00060BBF5 /* MDCloudsVC.swift */,
+				FA7C2EA92672AFED0060BBF5 /* MDPressureVC.swift */,
+				FA7C2EAB2672B0060060BBF5 /* MDHumidityVC.swift */,
+				FA7C2EAD2672B0240060BBF5 /* MDWindSpeedVC.swift */,
+				FA7C2EAF2672B05F0060BBF5 /* MDWindDegVC.swift */,
+				FA7C2EB12672B07C0060BBF5 /* MDWindGustVC.swift */,
+				FA7C2EB32672B09D0060BBF5 /* MDVisibilityVC.swift */,
+				FA4B7FAC26C56ADA00AEFC0F /* EndVC.swift */,
+			);
+			path = MoreDetailControllers;
+			sourceTree = "<group>";
+		};
+		FA7C2EA026716B150060BBF5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA58D20B2662D01E0002F53E /* NetworkWeatherManager.swift */,
+				FA7C2EC12674EDC70060BBF5 /* ValuteNetwork */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA7C2EBE2674A86E0060BBF5 /* Valute */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2EBA2674A74F0060BBF5 /* KursValuteVC.swift */,
+				FA7C2EBF2674A9220060BBF5 /* CurrencyTableViewCell.swift */,
+			);
+			path = Valute;
+			sourceTree = "<group>";
+		};
+		FA7C2EC12674EDC70060BBF5 /* ValuteNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2EA126716BB50060BBF5 /* NetworkValuteManager.swift */,
+			);
+			path = ValuteNetwork;
+			sourceTree = "<group>";
+		};
+		FA7C2EC22674EDEE0060BBF5 /* modelValute */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2EBC2674A81F0060BBF5 /* CurrencyValute.swift */,
+				FA7C2EC32674EE360060BBF5 /* ViewModel.swift */,
+			);
+			path = modelValute;
+			sourceTree = "<group>";
+		};
+		FA7C2EC52674F1090060BBF5 /* ValuteMoreDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C2EB82673F0280060BBF5 /* KursValute.storyboard */,
+			);
+			path = ValuteMoreDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA58D1D6265DA77F0002F53E /* AppPogodka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA58D1EE265DA7820002F53E /* Build configuration list for PBXNativeTarget "AppPogodka" */;
+			buildPhases = (
+				FA58D1D3265DA77F0002F53E /* Sources */,
+				FA58D1D4265DA77F0002F53E /* Frameworks */,
+				FA58D1D5265DA77F0002F53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppPogodka;
+			productName = AppPogodka;
+			productReference = FA58D1D7265DA77F0002F53E /* AppPogodka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA58D1CF265DA77F0002F53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA58D1D6265DA77F0002F53E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FA58D1D2265DA77F0002F53E /* Build configuration list for PBXProject "AppPogodka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA58D1CE265DA77F0002F53E;
+			productRefGroup = FA58D1D8265DA77F0002F53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA58D1D6265DA77F0002F53E /* AppPogodka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA58D1D5265DA77F0002F53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C2E6E266C3D940060BBF5 /* MDMinTemp.storyboard in Resources */,
+				FA58D1EA265DA7820002F53E /* LaunchScreen.storyboard in Resources */,
+				FA7C2E77266D2A780060BBF5 /* MDPressure.storyboard in Resources */,
+				FA7C2E8F266EC1840060BBF5 /* DegWind.mp3 in Resources */,
+				FA7C2E8A266EC1840060BBF5 /* Humidity.mp3 in Resources */,
+				FA58D20626619BD70002F53E /* RainStart.mp3 in Resources */,
+				FA58D1E7265DA7820002F53E /* Assets.xcassets in Resources */,
+				FA58D20A2661AD240002F53E /* DetailPogoda.mp3 in Resources */,
+				FA51E4F326698479000738C8 /* Птица.gif in Resources */,
+				FA7C2E73266D2A160060BBF5 /* MDMaxTemp.storyboard in Resources */,
+				FA7C2E79266D2AA40060BBF5 /* MDHumidity.storyboard in Resources */,
+				FA7C2E7F266D2B2A0060BBF5 /* MDWindGust.storyboard in Resources */,
+				FA58D1E2265DA77F0002F53E /* Main.storyboard in Resources */,
+				FA7C2E9D267024280060BBF5 /* ButtomDetail.mp3 in Resources */,
+				FA7C2EB92673F0280060BBF5 /* KursValute.storyboard in Resources */,
+				FA7C2E7B266D2ACD0060BBF5 /* MDWindSpeed.storyboard in Resources */,
+				FA58D204266199200002F53E /* Дождь3.gif in Resources */,
+				FA7C2E75266D2A570060BBF5 /* MDClouds.storyboard in Resources */,
+				FA58D20826619E370002F53E /* Raskat-groma.mp3 in Resources */,
+				FA7C2E8D266EC1840060BBF5 /* End.mp3 in Resources */,
+				FA7C2E8C266EC1840060BBF5 /* Pressure.mp3 in Resources */,
+				FA7C2E7D266D2AEA0060BBF5 /* MDWindDeg.storyboard in Resources */,
+				FA7C2E90266EC1840060BBF5 /* SpeedWind.mp3 in Resources */,
+				FA7C2E6C266C3C600060BBF5 /* MDFeelsLike.storyboard in Resources */,
+				FA7C2E81266D2B410060BBF5 /* MDVisibility.storyboard in Resources */,
+				FA53950A2678009900764369 /* KursValute.mp3 in Resources */,
+				FA4B7FAB26C556D500AEFC0F /* End.storyboard in Resources */,
+				FA7C2E8E266EC1840060BBF5 /* FeelsLike.mp3 in Resources */,
+				FA7C2E91266EC1840060BBF5 /* Clouds.mp3 in Resources */,
+				FA7C2E8B266EC1840060BBF5 /* GustWind.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA58D1D3265DA77F0002F53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA58D214266439E30002F53E /* DetailViewController.swift in Sources */,
+				FA58D20C2662D01E0002F53E /* NetworkWeatherManager.swift in Sources */,
+				FA4B7FAD26C56ADA00AEFC0F /* EndVC.swift in Sources */,
+				FA58D1FC266055B70002F53E /* StartMusic.swift in Sources */,
+				FA7C2EBB2674A74F0060BBF5 /* KursValuteVC.swift in Sources */,
+				FA58D1FE2661944F0002F53E /* GifToImage.swift in Sources */,
+				FA58D201266195B80002F53E /* StartGifViewController.swift in Sources */,
+				FA58D1DF265DA77F0002F53E /* ViewController.swift in Sources */,
+				FA7C2EA42672AF730060BBF5 /* MDMinTempVC.swift in Sources */,
+				FA58D1E5265DA77F0002F53E /* AppPogodka.xcdatamodeld in Sources */,
+				FA7C2E93267016B20060BBF5 /* DetailMusic.swift in Sources */,
+				FA7C2EC42674EE360060BBF5 /* ViewModel.swift in Sources */,
+				FA4B7FD226C8179900AEFC0F /* DestinationData.swift in Sources */,
+				FA58D20E2662D0390002F53E /* CurrentWeather.swift in Sources */,
+				FA7C2E71266CC7850060BBF5 /* Detail.swift in Sources */,
+				FA7C2EA226716BB50060BBF5 /* NetworkValuteManager.swift in Sources */,
+				FA7C2EA62672AFA50060BBF5 /* MDMaxTempVC.swift in Sources */,
+				FA58D1F726604F610002F53E /* VC+AlertControler.swift in Sources */,
+				FA58D2122662D0820002F53E /* Constance.swift in Sources */,
+				FA7C2EA82672AFD00060BBF5 /* MDCloudsVC.swift in Sources */,
+				FA7C2EB02672B05F0060BBF5 /* MDWindDegVC.swift in Sources */,
+				FA7C2EAC2672B0060060BBF5 /* MDHumidityVC.swift in Sources */,
+				FA7C2EBD2674A81F0060BBF5 /* CurrencyValute.swift in Sources */,
+				FA7C2EB22672B07C0060BBF5 /* MDWindGustVC.swift in Sources */,
+				FA7C2EB42672B09D0060BBF5 /* MDVisibilityVC.swift in Sources */,
+				FA7C2E9F267169F90060BBF5 /* MDFeelsLikeVC.swift in Sources */,
+				FA7C2EAA2672AFED0060BBF5 /* MDPressureVC.swift in Sources */,
+				FA58D1DB265DA77F0002F53E /* AppDelegate.swift in Sources */,
+				FA7C2EAE2672B0240060BBF5 /* MDWindSpeedVC.swift in Sources */,
+				FA58D1DD265DA77F0002F53E /* SceneDelegate.swift in Sources */,
+				FA58D2102662D0580002F53E /* CurrentWeatherData.swift in Sources */,
+				FA7C2EC02674A9220060BBF5 /* CurrencyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA58D1E0265DA77F0002F53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA58D1E1265DA77F0002F53E /* Base */,
+				FA7C2EB62672B2EA0060BBF5 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA58D1E8265DA7820002F53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA58D1E9265DA7820002F53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA58D1EC265DA7820002F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA58D1ED265DA7820002F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA58D1EF265DA7820002F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppPogodka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gordeichik-Sergey.AppPogodka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA58D1F0265DA7820002F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppPogodka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gordeichik-Sergey.AppPogodka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA58D1D2265DA77F0002F53E /* Build configuration list for PBXProject "AppPogodka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA58D1EC265DA7820002F53E /* Debug */,
+				FA58D1ED265DA7820002F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA58D1EE265DA7820002F53E /* Build configuration list for PBXNativeTarget "AppPogodka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA58D1EF265DA7820002F53E /* Debug */,
+				FA58D1F0265DA7820002F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA58D1E3265DA77F0002F53E /* AppPogodka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA58D1E4265DA77F0002F53E /* AppPogodka.xcdatamodel */,
+			);
+			currentVersion = FA58D1E4265DA77F0002F53E /* AppPogodka.xcdatamodel */;
+			path = AppPogodka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA58D1CF265DA77F0002F53E /* Project object */;
+}

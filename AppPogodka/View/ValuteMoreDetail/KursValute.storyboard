@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--KursValute-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="KursValute" id="Y6W-OH-hqX" customClass="KursValuteVC" customModule="AppPogodka" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="waH-Rf-eV2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hYD-oI-xFa">
+                                <rect key="frame" x="0.0" y="112" width="414" height="682"/>
+                                <color key="backgroundColor" red="0.14297479390000001" green="0.49811452630000003" blue="0.48627728219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.14297479390000001" green="0.49811452630000003" blue="0.48627728219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="185" id="ptC-4G-RBr" customClass="CurrencyTableViewCell" customModule="AppPogodka" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="185"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ptC-4G-RBr" id="2bX-SK-TnQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="185"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n0u-jZ-fHh">
+                                                    <rect key="frame" x="60" y="39" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="Lsp-wN-ycT"/>
+                                                        <constraint firstAttribute="height" constant="100" id="du3-QO-efG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GBP 1L =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jD-yY-o6K">
+                                                    <rect key="frame" x="210" y="26" width="154" height="25"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                                    <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="102 BR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGI-WM-mdr">
+                                                    <rect key="frame" x="180" y="71.5" width="144" height="35.5"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="28"/>
+                                                    <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05.05.2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3f-Dr-euE">
+                                                    <rect key="frame" x="291.5" y="130.5" width="80.5" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="n0u-jZ-fHh" firstAttribute="top" secondItem="2bX-SK-TnQ" secondAttribute="top" constant="39" id="1n8-2X-zme"/>
+                                                <constraint firstAttribute="trailing" secondItem="NGI-WM-mdr" secondAttribute="trailing" constant="90" id="7f3-Vx-rBU"/>
+                                                <constraint firstItem="NGI-WM-mdr" firstAttribute="leading" secondItem="n0u-jZ-fHh" secondAttribute="trailing" constant="20" id="HbB-rs-dGT"/>
+                                                <constraint firstAttribute="trailing" secondItem="n0u-jZ-fHh" secondAttribute="trailing" constant="254" id="JPT-Pv-WjR"/>
+                                                <constraint firstItem="4jD-yY-o6K" firstAttribute="top" secondItem="2bX-SK-TnQ" secondAttribute="top" constant="26" id="Ulb-pd-3yA"/>
+                                                <constraint firstAttribute="trailing" secondItem="N3f-Dr-euE" secondAttribute="trailing" constant="42" id="VG1-1S-hG0"/>
+                                                <constraint firstItem="NGI-WM-mdr" firstAttribute="top" secondItem="4jD-yY-o6K" secondAttribute="bottom" constant="20.5" id="YVL-Ez-Z3Q"/>
+                                                <constraint firstAttribute="trailing" secondItem="4jD-yY-o6K" secondAttribute="trailing" constant="50" id="Yfh-rw-a7r"/>
+                                                <constraint firstItem="4jD-yY-o6K" firstAttribute="leading" secondItem="n0u-jZ-fHh" secondAttribute="trailing" constant="50" id="ZKt-6N-xJp"/>
+                                                <constraint firstItem="n0u-jZ-fHh" firstAttribute="leading" secondItem="2bX-SK-TnQ" secondAttribute="leading" constant="60" id="aax-09-3PK"/>
+                                                <constraint firstItem="N3f-Dr-euE" firstAttribute="top" secondItem="NGI-WM-mdr" secondAttribute="bottom" constant="23.5" id="rXt-s2-jZg"/>
+                                                <constraint firstAttribute="bottom" secondItem="n0u-jZ-fHh" secondAttribute="bottom" constant="46" id="v0B-po-MdX"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.091208450499999996" green="0.37650629880000003" blue="0.36862981319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <outlet property="curNameLabel" destination="4jD-yY-o6K" id="8Lw-JK-bYh"/>
+                                            <outlet property="flagImageView" destination="n0u-jZ-fHh" id="788-5L-cAu"/>
+                                            <outlet property="officialRateLabel" destination="NGI-WM-mdr" id="V2D-fy-RN1"/>
+                                            <outlet property="todayLabel" destination="N3f-Dr-euE" id="3k8-Ie-l0z"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="waH-Rf-eV2" secondAttribute="top" constant="44" id="0Kp-80-jfD"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="waH-Rf-eV2" secondAttribute="trailing" id="6FJ-Xr-cHv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hYD-oI-xFa" secondAttribute="trailing" id="9dJ-8g-Era"/>
+                            <constraint firstItem="hYD-oI-xFa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Hid-6h-4YE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hYD-oI-xFa" secondAttribute="bottom" constant="68" id="LXV-HA-vZS"/>
+                            <constraint firstItem="hYD-oI-xFa" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="VPd-qH-my5"/>
+                            <constraint firstItem="waH-Rf-eV2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="dCb-pU-Y6a"/>
+                            <constraint firstItem="waH-Rf-eV2" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="34" id="xYj-hJ-uEB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="hYD-oI-xFa" id="SgC-CN-uK8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="50.892857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1125" height="2436"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+
+/* Class = "UILabel"; text = "Восход"; ObjectID = "0Z4-gJ-lGF"; */
+"0Z4-gJ-lGF.text" = "Восход";
+
+/* Class = "UILabel"; text = "Заход \nсолнце"; ObjectID = "0oI-pc-FUY"; */
+"0oI-pc-FUY.text" = "Заход \nсолнце";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1Fm-o5-w3l"; */
+"1Fm-o5-w3l.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1ca-gg-uZc"; */
+"1ca-gg-uZc.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1fT-an-Kh9"; */
+"1fT-an-Kh9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Переменная облачность"; ObjectID = "44h-IL-NMF"; */
+"44h-IL-NMF.text" = "Переменная облачность";
+
+/* Class = "UILabel"; text = " Переменная  облачность"; ObjectID = "4jd-e0-gqv"; */
+"4jd-e0-gqv.text" = " Переменная  облачность";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Yj-DB-JdJ"; */
+"7Yj-DB-JdJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8Xp-6S-NDe"; */
+"8Xp-6S-NDe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0°"; ObjectID = "Cyk-nk-RHI"; */
+"Cyk-nk-RHI.text" = "0°";
+
+/* Class = "UINavigationItem"; title = "START"; ObjectID = "DIj-c3-T3P"; */
+"DIj-c3-T3P.title" = "START";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EUj-eh-KFC"; */
+"EUj-eh-KFC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0°"; ObjectID = "HOs-Wn-DP2"; */
+"HOs-Wn-DP2.text" = "0°";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MZf-oI-F6p"; */
+"MZf-oI-F6p.text" = "Label";
+
+/* Class = "UILabel"; text = "Восход  солнце"; ObjectID = "MtT-oi-uTP"; */
+"MtT-oi-uTP.text" = "Восход  солнце";
+
+/* Class = "UIBarButtonItem"; title = "START"; ObjectID = "NlL-7B-pAf"; */
+"NlL-7B-pAf.title" = "START";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SRh-lq-ITr"; */
+"SRh-lq-ITr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Минск"; ObjectID = "SeS-ac-A34"; */
+"SeS-ac-A34.text" = "Минск";
+
+/* Class = "UINavigationItem"; title = "Pogodka"; ObjectID = "WLT-gl-dYc"; */
+"WLT-gl-dYc.title" = "Pogodka";
+
+/* Class = "UILabel"; text = "Минск"; ObjectID = "XV3-7k-dtW"; */
+"XV3-7k-dtW.text" = "Минск";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aS1-wj-uDq"; */
+"aS1-wj-uDq.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ahX-so-QmY"; */
+"ahX-so-QmY.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Detail"; ObjectID = "eAi-Dx-FC1"; */
+"eAi-Dx-FC1.normalTitle" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fpP-fT-se5"; */
+"fpP-fT-se5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Температура"; ObjectID = "geS-Gl-q6y"; */
+"geS-Gl-q6y.text" = "Температура";
+
+/* Class = "UILabel"; text = "Выберите город"; ObjectID = "jC3-cl-kdx"; */
+"jC3-cl-kdx.text" = "Выберите город";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "jYY-94-eZr"; */
+"jYY-94-eZr.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s6p-4p-Bh7"; */
+"s6p-4p-Bh7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Закат"; ObjectID = "wde-CJ-9iC"; */
+"wde-CJ-9iC.text" = "Закат";

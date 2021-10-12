@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Чаппи" translatesAutoresizingMaskIntoConstraints="NO" id="7d5-jK-4DY">
+                                <rect key="frame" x="-98" y="-325" width="654" height="1489"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCo-C4-NWN">
+                                <rect key="frame" x="20" y="359" width="374" height="389"/>
+                                <string key="text">WELL
+the POGODKA</string>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="75"/>
+                                <color key="textColor" red="0.45928871630000001" green="0.7306575179" blue="0.86668705940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rCo-C4-NWN" secondAttribute="bottom" constant="114" id="8aV-0S-2aZ"/>
+                            <constraint firstItem="rCo-C4-NWN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="MD6-Eq-uee"/>
+                            <constraint firstItem="rCo-C4-NWN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QbN-2z-dkI"/>
+                            <constraint firstItem="7d5-jK-4DY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="302" id="YQi-wv-h65"/>
+                            <constraint firstItem="7d5-jK-4DY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="142" id="e3e-Hx-7lF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="7d5-jK-4DY" secondAttribute="leading" constant="98" id="gi7-Th-Gtd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="7d5-jK-4DY" secondAttribute="top" constant="369" id="roD-qe-8QU"/>
+                            <constraint firstItem="rCo-C4-NWN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="315" id="tEz-DO-Ifq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Чаппи" width="1024" height="1321"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
