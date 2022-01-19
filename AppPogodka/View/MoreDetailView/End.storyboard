@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,20 +25,21 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSQ-Em-Ktl">
-                                <rect key="frame" x="20" y="510" width="374" height="342"/>
+                                <rect key="frame" x="20" y="852" width="374" height="0.0"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="342" id="NcU-Lc-8cs"/>
                                     <constraint firstAttribute="width" constant="374" id="qSa-qD-fwy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="19"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.58985841269999995" green="0.67630094289999998" blue="0.78825110200000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="iSQ-Em-Ktl" firstAttribute="top" secondItem="6I2-Eq-6Q3" secondAttribute="bottom" constant="-500" id="Gae-NU-PRL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="iSQ-Em-Ktl" secondAttribute="bottom" constant="10" id="LXK-Ya-89r"/>
                             <constraint firstItem="iSQ-Em-Ktl" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="m8V-r7-I3b"/>
                             <constraint firstItem="6I2-Eq-6Q3" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="oM2-Jo-4eu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="6I2-Eq-6Q3" secondAttribute="top" constant="425" id="sSp-4s-Cvi"/>
@@ -53,5 +56,8 @@
     </scenes>
     <resources>
         <image name="EndImage" width="2001" height="2178"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
