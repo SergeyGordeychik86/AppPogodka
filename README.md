@@ -1,12 +1,7 @@
 #  AppPogodka
 
 ## A simple clean application to provide you with weather forecast data as well as currency rates, all with beautiful melodies and sounds.
-___
 
-Just create and run on your iPhone, then disable when you need new jokes.
-Like and share jokes with your friends.
-
-___
 
 ### What did I use?
 
